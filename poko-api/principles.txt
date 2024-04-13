@@ -1,0 +1,15 @@
+// Immutability: Favor immutability by avoiding mutation of data whenever possible. Instead of modifying existing data structures, create new ones with the desired changes. This prevents unexpected side effects and makes your code easier to reason about.
+
+// Pure Functions: Strive to write pure functions, which have no side effects and always produce the same output given the same input. Pure functions rely only on their input parameters and do not modify external state. They are predictable and easier to test and reason about.
+
+// First-Class Functions: Treat functions as first-class citizens, meaning they can be assigned to variables, passed as arguments to other functions, and returned as values from other functions. This enables higher-order functions, function composition, and other functional programming techniques.
+
+// Function Composition: Compose small, focused functions to build more complex functionality. Function composition involves chaining together multiple functions to create new functions that perform a series of operations. This promotes modularity, reusability, and maintainability.
+
+// Avoid Mutable State: Minimize the use of mutable state and mutable data structures. Instead, use immutable data structures or manage state in a functional and controlled manner. Immutable state reduces the risk of bugs related to unintended state changes.
+
+// Declarative Programming: Embrace declarative programming over imperative programming. Instead of specifying step-by-step instructions for how to achieve a task, focus on describing what should be done. Declarative code tends to be more concise, expressive, and easier to understand.
+
+// Higher-Order Functions: Use higher-order functions to abstract over common patterns and promote code reuse. Higher-order functions take other functions as arguments or return functions as results. They enable powerful abstractions and can simplify complex logic.
+
+// Avoid Side Effects: Minimize side effects, such as modifying external state, performing I/O operations, or relying on global variables. Side effects can lead to unpredictable behavior and make it harder to reason about code. Keep side effects confined to specific, controlled parts of the application.
